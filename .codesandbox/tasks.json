@@ -1,0 +1,53 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "run": {
+      "name": "run",
+      "command": "run"
+    },
+    "/heroku": {
+      "name": "/heroku",
+      "command": "/heroku"
+    },
+    "start": {
+      "name": "start",
+      "command": "start"
+    },
+    "https://pornpen.ai/make?tags=OYUwdiBOCGAuD2kC80wEsC2IBktrAGcV0sB9AgVwCMArEAY1lIHd4NUg": {
+      "name": "https://pornpen.ai/make?tags=OYUwdiBOCGAuD2kC80wEsC2IBktrAGcV0sB9AgVwCMArEAY1lIHd4NUg",
+      "command": "https://pornpen.ai/make?tags=OYUwdiBOCGAuD2kC80wEsC2IBktrAGcV0sB9AgVwCMArEAY1lIHd4NUg"
+    },
+    "sudo apt install ../GameHub-*.deb": {
+      "name": "sudo apt install ../GameHub-*.deb",
+      "command": "sudo apt install ../GameHub-*.deb"
+    },
+    "git clone https://github.com/tkashkin/GameHub.git cd GameHub scripts/build.sh build_flatpak": {
+      "name": "git clone https://github.com/tkashkin/GameHub.git cd GameHub scripts/build.sh build_flatpak",
+      "command": "git clone https://github.com/tkashkin/GameHub.git cd GameHub scripts/build.sh build_flatpak"
+    },
+    "flatpak install GameHub-*.flatpak": {
+      "name": "flatpak install GameHub-*.flatpak",
+      "command": "flatpak install GameHub-*.flatpak"
+    },
+    "meson": {
+      "name": "meson",
+      "command": "meson"
+    },
+    "git clone https://github.com/tkashkin/GameHub.git cd GameHub meson build --prefix=/usr --buildtype=debug cd build": {
+      "name": "git clone https://github.com/tkashkin/GameHub.git cd GameHub meson build --prefix=/usr --buildtype=debug cd build",
+      "command": "git clone https://github.com/tkashkin/GameHub.git cd GameHub meson build --prefix=/usr --buildtype=debug cd build"
+    },
+    "# install if `add-apt-repository` is not available sudo apt install --no-install-recommends software-properties-common  sudo add-apt-repository ppa:tkashkin/gamehub sudo apt update sudo apt install com.github.tkashkin.gamehu": {
+      "name": "# install if `add-apt-repository` is not available sudo apt install --no-install-recommends software-properties-common  sudo add-apt-repository ppa:tkashkin/gamehub sudo apt update sudo apt install com.github.tkashkin.gamehu",
+      "command": "# install if `add-apt-repository` is not available sudo apt install --no-install-recommends software-properties-common  sudo add-apt-repository ppa:tkashkin/gamehub sudo apt update sudo apt install com.github.tkashkin.gamehu"
+    },
+    "git clone https://github.com/tkashkin/GameHub.git cd GameHub meson build --prefix=/usr --buildtype=debug cd build ninja": {
+      "name": "git clone https://github.com/tkashkin/GameHub.git cd GameHub meson build --prefix=/usr --buildtype=debug cd build ninja",
+      "command": "git clone https://github.com/tkashkin/GameHub.git cd GameHub meson build --prefix=/usr --buildtype=debug cd build ninja",
+      "runAtStart": true
+    }
+  }
+}
